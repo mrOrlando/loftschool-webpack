@@ -1,4 +1,4 @@
-import createMenu from './menu';
+import createMenu from '../../components/menu/menu';
 
 let menu = createMenu([
   'Главная',
@@ -7,3 +7,5 @@ let menu = createMenu([
 ], 'menu');
 
 document.body.appendChild(menu);
+
+console.log('in index.js');

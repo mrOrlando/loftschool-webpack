@@ -35,5 +35,8 @@ module.exports = {
           pretty: true
         }
     }]
+  },
+  devServer: {
+    stats: 'errors-only'
   }
 };

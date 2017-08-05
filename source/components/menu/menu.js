@@ -1,4 +1,5 @@
 import './menu.scss';
+import 'normalize.css/normalize.css';
 
 export default function (array, className) {
 

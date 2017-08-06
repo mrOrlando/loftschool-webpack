@@ -3,7 +3,7 @@ import 'normalize.css/normalize.css';
 
 import createMenu from '../../components/menu/menu';
 
-let menu = createMenu([
+var menu = createMenu([
   'Главная',
   'Обо мне',
   'Портфолио'

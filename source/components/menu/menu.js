@@ -8,7 +8,7 @@ export default function (array, className) {
 
   var listItems = '';
   array.forEach(function (item) {
-    listItems += '<li>' + item + '</li>';
+    listItems += '<li><a href="' + item.link + '">' + item.name + '</a></li>';
   });
 
   menu.innerHTML = listItems;

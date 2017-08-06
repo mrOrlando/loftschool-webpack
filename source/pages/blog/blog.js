@@ -3,9 +3,13 @@ import 'normalize.css/normalize.css';
 
 import createMenu from '../../components/menu/menu';
 
-var menu = createMenu([
-  'Главная',
-  'Блог'
+var menu = createMenu([{
+    name: 'Главная',
+    link: '/'
+  }, {
+    name: 'Блог',
+    link: 'blog.html'
+  }
 ], 'menu');
 
 document.body.appendChild(menu);
